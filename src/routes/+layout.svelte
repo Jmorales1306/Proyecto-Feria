@@ -20,12 +20,12 @@
       >
     </div>
     <div class="w-40 h-11 text-center">
-      <a href="/#" class=" text-black text-[22px] font-bold font-['Inter']"
+      <a href="/login" class=" text-black text-[22px] font-bold font-['Inter']"
         >Audifonos</a
       >
     </div>
     <div class="w-40 h-11 text-center">
-      <a href="/#" class=" text-black text-[22px] font-bold font-['Inter']"
+      <a href="/sign_up" class=" text-black text-[22px] font-bold font-['Inter']"
         >Cargadores</a
       >
     </div>
