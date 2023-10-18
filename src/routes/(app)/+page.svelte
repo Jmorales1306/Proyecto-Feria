@@ -1,8 +1,6 @@
-
 <script>
   import headPhone from '$lib/assets/audifonos.png'
   import smarthWatch from '$lib/assets/xiaomi_redmi_watch_2_lite_azul.png'
-
 </script>
 
 <!-- container head phone-->
