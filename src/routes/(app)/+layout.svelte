@@ -114,20 +114,20 @@
           class=" text-black text-[22px] font-bold font-['Inter'] "
           href="/covers">Covers</a
         >
-        <a class=" text-black text-[22px] font-bold font-['Inter']" href="/blog"
+        <a class=" text-black text-[22px] font-bold font-['Inter']" href="/"
           >Audifonos</a
         >
         <a
           class=" text-black text-[22px] font-bold font-['Inter']"
-          href="/contact">Cargadores</a
+          href="/">Cargadores</a
         >
         <a
           class=" text-black text-[22px] font-bold font-['Inter']"
-          href="/about">SmarPhone</a
+          href="/">SmarPhone</a
         >
         <a
           class=" text-black text-[22px] font-bold font-['Inter']"
-          href="/about">Adaptadores</a
+          href="/">Adaptadores</a
         >
       </div>
     {/if}
