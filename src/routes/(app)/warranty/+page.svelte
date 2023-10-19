@@ -2,9 +2,7 @@
     import headphone from '$lib/assets/headphone-regular-240.png'
     import icon from '$lib/assets/check-circle-solid-240 (1).png'
     import phone from '$lib/assets/game-solid-240.png'
-    import facebook from "$lib/assets/facebook-circle-logo-48.png" 
-    import twitter from "$lib/assets/twitter-logo-48.png"
-    import instagram from "$lib/assets/instagram-alt-logo-48.png"
+   
   </script>
 
 <body class="bg:[#F8F8F8] ">
@@ -92,44 +90,3 @@
     </section>  
 </body>
 
-<footer class="bg-[#2C465D] py-12">
-    <div class="container mx-auto px-2 text-white">
-        <div class="flex justify-start">
-            <div class="pr-10">
-                <h2 class="text-3xl font-bold mb-4">Soporte</h2>
-                <ul>
-                    <li><a href="#">Garantía de productos</a></li>
-                    <li><a href="#">Guías de uso</a></li>
-                    <li><a href="#">Ubicación</a></li>
-                </ul>
-            </div>
-            <div class="pr-10">
-                <h2 class="text-3xl font-bold mb-4">Sobre nosotros</h2>
-                <ul>
-                    <li><a href="#">H Ventas Locas</a></li>
-                    <li><a href="#">Políticas de privacidad</a></li>
-                    <li><a href="#">Términos y condiciones</a></li>
-                </ul>
-            </div>
-            <div class="pr-10">
-                <h2 class="text-3xl font-bold mb-4">Contáctanos</h2>
-                <ul>
-                    <li><a href="#">Escribe a nuestro WhatsApp</a></li>
-                    
-                </ul>
-            </div>
-            <div>
-                <h2 class="text-3xl font-bold mb-4 mr-7">Síguenos</h2>
-                <ul class="flex space-x-2 text-6xl">
-                    <li><img src={facebook} alt=""></li>
-                    <li><img src={twitter} alt=""></li>
-                    <li><img src={instagram} alt=""></li>
-                    
-                </ul>
-            </div>
-        </div>
-    </div>
-    <div class="grid justify-items-center text-white mt-20">
-        <p>© 2023 H ventas Locas. Todos los derechos reservados.</p>
-    </div>
-</footer>

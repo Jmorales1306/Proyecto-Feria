@@ -54,14 +54,14 @@
   
       <p class="mt-10 text-center text-sm text-gray-500">
         Ya tienes una cuenta?
-        <a href="#" class="font-semibold leading-6 text-sky-800 hover:text-gray-500">Inicia sesión aquí</a>
+        <a href="/login" class="font-semibold leading-6 text-sky-800 hover:text-gray-500">Inicia sesión aquí</a>
       </p>
       <p class="mt-4 mb-10 text-center text-sm text-gray-500">
         Olvidaste tu contraseña?
         <a href="#" class="font-semibold leading-6 text-sky-800 hover:text-gray-500">Haz click aquí</a>
       </p>
       <p class="mt-4 mb-10 text-center text-sm text-gray-500">
-        <a href="#" class="font-semibold leading-6 text-sky-800 hover:text-gray-500">Volver a la página principal</a>
+        <a href="/" class="font-semibold leading-6 text-sky-800 hover:text-gray-500">Volver a la página principal</a>
       </p>
       
     </div>

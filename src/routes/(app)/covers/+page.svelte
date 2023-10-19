@@ -1,8 +1,14 @@
 <script>
-    import facebook from "$lib/assets/facebook-circle-logo-48.png" 
-    import twitter from "$lib/assets/twitter-logo-48.png"
-    import instagram from "$lib/assets/instagram-alt-logo-48.png"
+    
     import headphone from "$lib/assets/audifonos.png"
+    import cover1 from "$lib/assets/cover zflip.jpg"
+    import cover2 from "$lib/assets/coverxiaomi.jpg"
+    import cover3 from "$lib/assets/coverredmi.jpg"
+    import cover4 from "$lib/assets/realmecover.jpg"
+    import cover5 from "$lib/assets/iphonecover.jpg"
+    import cover6 from "$lib/assets/coverpixel.jpg"
+    import cover7 from "$lib/assets/coverpixel3.jpg"
+    import cover8 from "$lib/assets/oneplus11.png"
 </script>
 
 
@@ -17,13 +23,13 @@
 
   
 
-<div class="grid grid-rows-3 grid-flow-col gap-x-20 gap-y-40 m-20">
+<div class="grid md:grid-rows-3 sm:grid-rows-4 grid-flow-col gap-x-20 gap-y-40 m-20">
 
-    <div class="flex justify-center items-center h-max bg-slate-100 rounded-xl">
+    <div class="flex justify-center items-center h-max bg-white rounded-xl">
         <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
             <div>
                 <div class="bg-white rounded-lg mb-2">
-                    <img src={headphone} alt=""> 
+                    <img class="object-contain h-96 w-96" src={cover2} alt="/Product"> 
                 </div>
             </div>
             <div class="flex flex-col space-y-4">
@@ -32,7 +38,7 @@
                         <p class="text-2xl font-bold text-center mt-5">$20</p>
                     </div>
                     <div class="max-w-sw text-2xl font-bold text-center mt-5">
-                        Audífonos Sony 
+                        Cover Mi 11 Lite
                     </div>
                     
                     <div class="group">
@@ -49,11 +55,11 @@
         </div>
     </div>
     
-    <div class="flex justify-center items-center h-min bg-slate-100 rounded-xl">
+    <div class="flex justify-center items-center h-min bg-white rounded-xl">
         <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
             <div>
-                <div class="bg-white rounded-lg mb-2">
-                    <img src={headphone} alt=""> 
+                <div class="bg-white rounded-lg mb-2 ">
+                    <img class="object-contain h-96 w-96" src={cover3} alt=""> 
                 </div>
             </div>
             <div class="flex flex-col space-y-4">
@@ -62,7 +68,7 @@
                         <p class="text-2xl font-bold text-center mt-5">$20</p>
                     </div>
                     <div class="max-w-sw text-2xl font-bold text-center mt-5">
-                        Audífonos Sony 
+                        Cover Redmi Note 
                     </div>
                     
                     <div class="group">
@@ -78,11 +84,12 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center items-center h-min bg-slate-100 rounded-xl">
+
+    <div class="flex justify-center items-center h-min bg-white rounded-xl">
         <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
             <div>
-                <div class="bg-white rounded-lg mb-2">
-                    <img src={headphone} alt=""> 
+                <div class="bg-white rounded-lg mb-2 ">
+                    <img class="object-contain h-96 w-96" src={cover4} alt=""> 
                 </div>
             </div>
             <div class="flex flex-col space-y-4">
@@ -91,7 +98,7 @@
                         <p class="text-2xl font-bold text-center mt-5">$20</p>
                     </div>
                     <div class="max-w-sw text-2xl font-bold text-center mt-5">
-                        Audífonos Sony 
+                        Cover Realme C21
                     </div>
                     
                     <div class="group">
@@ -107,11 +114,12 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center items-center h-min bg-slate-100 rounded-xl">
+
+    <div class="flex justify-center items-center h-min bg-white rounded-xl">
         <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
             <div>
                 <div class="bg-white rounded-lg mb-2">
-                    <img src={headphone} alt=""> 
+                    <img class="object-contain h-96 w-96" src={cover1} alt=""> 
                 </div>
             </div>
             <div class="flex flex-col space-y-4">
@@ -120,7 +128,7 @@
                         <p class="text-2xl font-bold text-center mt-5">$20</p>
                     </div>
                     <div class="max-w-sw text-2xl font-bold text-center mt-5">
-                        Audífonos Sony 
+                        Cover Galaxy ZFlip 4 
                     </div>
                     
                     <div class="group">
@@ -136,11 +144,12 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center items-center h-min bg-slate-100 rounded-xl">
+
+    <div class="flex justify-center items-center h-min bg-white rounded-xl">
         <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
             <div>
                 <div class="bg-white rounded-lg mb-2">
-                    <img src={headphone} alt=""> 
+                    <img class="object-contain h-96 w-96" src={cover8} alt=""> 
                 </div>
             </div>
             <div class="flex flex-col space-y-4">
@@ -149,7 +158,7 @@
                         <p class="text-2xl font-bold text-center mt-5">$20</p>
                     </div>
                     <div class="max-w-sw text-2xl font-bold text-center mt-5">
-                        Audífonos Sony 
+                        Cover OnePlus 11
                     </div>
                     
                     <div class="group">
@@ -165,11 +174,12 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center items-center h-min bg-slate-100 rounded-xl">
+
+    <div class="flex justify-center items-center h-min bg-white rounded-xl">
         <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
             <div>
                 <div class="bg-white rounded-lg mb-2">
-                    <img src={headphone} alt=""> 
+                    <img class="object-contain h-96 w-96" src={cover5} alt=""> 
                 </div>
             </div>
             <div class="flex flex-col space-y-4">
@@ -178,7 +188,7 @@
                         <p class="text-2xl font-bold text-center mt-5">$20</p>
                     </div>
                     <div class="max-w-sw text-2xl font-bold text-center mt-5">
-                        Audífonos Sony 
+                        Cover Iphone 13
                     </div>
                     
                     <div class="group">
@@ -194,11 +204,12 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center items-center h-min bg-slate-100 rounded-xl">
+
+    <div class="flex justify-center items-center h-min bg-white rounded-xl">
         <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
             <div>
                 <div class="bg-white rounded-lg mb-2">
-                    <img src={headphone} alt=""> 
+                    <img class="object-contain h-96 w-96" src={cover7} alt=""> 
                 </div>
             </div>
             <div class="flex flex-col space-y-4">
@@ -207,7 +218,7 @@
                         <p class="text-2xl font-bold text-center mt-5">$20</p>
                     </div>
                     <div class="max-w-sw text-2xl font-bold text-center mt-5">
-                        Audífonos Sony 
+                       Cover Pixel 3A 
                     </div>
                     
                     <div class="group">
@@ -223,11 +234,12 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center items-center h-min bg-slate-100 rounded-xl">
+
+    <div class="flex justify-center items-center h-min bg-white rounded-xl">
         <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
             <div>
                 <div class="bg-white rounded-lg mb-2">
-                    <img src={headphone} alt=""> 
+                    <img class="object-contain h-96 w-96" src={cover6} alt=""> 
                 </div>
             </div>
             <div class="flex flex-col space-y-4">
@@ -236,7 +248,7 @@
                         <p class="text-2xl font-bold text-center mt-5">$20</p>
                     </div>
                     <div class="max-w-sw text-2xl font-bold text-center mt-5">
-                        Audífonos Sony 
+                        Cover Pixel 4 
                     </div>
                     
                     <div class="group">
@@ -254,47 +266,115 @@
     </div>
 </div>
 
+<div class="grid grid-col-4 grid-flow-col gap-20 justify-center mb-24">
+   
+    <button class="w-[100px] bg-white text-white text-xl font-bold rounded-xl p-2 mt-5">
+        <div class="px-8 py-4 pl-5 bg-[#2C3E50] rounded-3xl duration-200 group-hover:bg-sky-800 text-center">Ant.</div></button>
+
+    <button class="w-[10px] bg-white text-white text-xl font-bold rounded-xl p-2 mt-5">
+        <div class="px-8 py-4 bg-[#2C3E50] rounded-3xl duration-200 group-hover:bg-sky-800 text-center">1</div></button>
+        
+        <button class="w-[10px] bg-white text-gray-900 text-xl font-bold rounded-xl p-2 mt-5">
+            <div class="px-8 py-4 bg-slate-100 rounded-3xl duration-200 group-hover:bg-sky-800">2</div></button>
+ 
+        <button class="w-[10px] bg-white text-gray-900 text-xl font-bold rounded-xl p-2 mt-5">
+            <div class="px-8 py-4 bg-slate-100 rounded-3xl duration-200 group-hover:bg-sky-800">3</div></button>
+ 
+        <button class="w-[10px] bg-white text-gray-900 text-xl font-bold rounded-xl p-2 mt-5">
+            <div class="px-8 py-4 bg-slate-100 rounded-3xl duration-200 group-hover:bg-sky-800">4</div></button>
+
+            <button class="w-[100px] bg-white text-white text-xl font-bold rounded-xl p-2 mt-5">
+                <div class="px-8 py-4 pl-5 bg-[#2C3E50] rounded-3xl duration-200 group-hover:bg-sky-800 text-center">Sig.</div></button>        
+</div>
+
+<div>
+    <p class="justify-center text-center font-bold text-4xl">También podría interesarte.</p>
+</div>
 
 
+<div class="grid md:grid-col-3 sm:grid-col-4 grid-flow-col gap-x-20 gap-y-40 m-20 justify-center">
 
-<footer class="bg-[#2C465D] py-12">
-    <div class="container mx-auto px-2 text-white">
-        <div class="flex justify-start">
-            <div class="pr-10">
-                <h2 class="text-3xl font-bold mb-4">Soporte</h2>
-                <ul>
-                    <li><a href="#">Garantía de productos</a></li>
-                    <li><a href="#">Guías de uso</a></li>
-                    <li><a href="#">Ubicación</a></li>
-                </ul>
-            </div>
-            <div class="pr-10">
-                <h2 class="text-3xl font-bold mb-4">Sobre nosotros</h2>
-                <ul>
-                    <li><a href="#">H Ventas Locas</a></li>
-                    <li><a href="#">Políticas de privacidad</a></li>
-                    <li><a href="#">Términos y condiciones</a></li>
-                </ul>
-            </div>
-            <div class="pr-10">
-                <h2 class="text-3xl font-bold mb-4">Contáctanos</h2>
-                <ul>
-                    <li><a href="#">Escribe a nuestro WhatsApp</a></li>
-                    
-                </ul>
-            </div>
+    
+    <div class="flex justify-center items-center h-max bg-white rounded-xl">
+        <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
             <div>
-                <h2 class="text-3xl font-bold mb-4">Síguenos</h2>
-                <ul class="flex space-x-2 text-6xl">
-                    <li><img src={facebook} alt=""></li>
-                    <li><img src={twitter} alt=""></li>
-                    <li><img src={instagram} alt=""></li>
+                <div class="bg-white rounded-lg mb-2">
+                    <img class="object-contain h-96 w-96" src={cover2} alt=""> 
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <div class="flex flex-col mb-4 space-y3 text-center md:text-left">
+                    <div class="flex flex-col mb-t space-y-3 text-center md:text-left">
+                        <p class="text-2xl font-bold text-center mt-5">$20</p>
+                    </div>
+                    <div class="max-w-sw text-2xl font-bold text-center mt-5">
+                        Cover Mi 11 Lite
+                    </div>
                     
-                </ul>
+                    
+                    <div class="group">
+                        <button class="w-full bg-white text-black text-2xl font-bold rounded-xl p-2 mt-5">
+                            <div class="px-8 py-4 bg-gray-100 rounded-lg duration-200 group-hover:bg-sky-200">Ver más</div></button>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <div class="grid justify-items-center text-white mt-20">
-        <p>© 2023 H ventas Locas. Todos los derechos reservados.</p>
+    
+    <div class="flex justify-center items-center h-min bg-white rounded-xl">
+        <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
+            <div>
+                <div class="bg-white rounded-lg mb-2 ">
+                    <img class="object-contain h-96 w-96" src={cover3} alt=""> 
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <div class="flex flex-col mb-4 space-y3 text-center md:text-left">
+                    <div class="flex flex-col mb-t space-y-3 text-center md:text-left">
+                        <p class="text-2xl font-bold text-center mt-5">$20</p>
+                    </div>
+                    <div class="max-w-sw text-2xl font-bold text-center mt-5">
+                        Cover Redmi Note 
+                    </div>
+                    
+                    
+                    <div class="group">
+                        <button class="w-full bg-white text-black text-2xl font-bold rounded-xl p-2 mt-5">
+                            <div class="px-8 py-4 bg-gray-100 rounded-lg duration-200 group-hover:bg-sky-200">Ver más</div></button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-</footer>
+
+    <div class="flex justify-center items-center h-min bg-white rounded-xl">
+        <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
+            <div>
+                <div class="bg-white rounded-lg mb-2 ">
+                    <img class="object-contain h-96 w-96" src={cover4} alt=""> 
+                </div>
+            </div>
+            <div class="flex flex-col space-y-4">
+                <div class="flex flex-col mb-4 space-y3 text-center md:text-left">
+                    <div class="flex flex-col mb-t space-y-3 text-center md:text-left">
+                        <p class="text-2xl font-bold text-center mt-5">$20</p>
+                    </div>
+                    <div class="max-w-sw text-2xl font-bold text-center mt-5">
+                        Cover Realme C21
+                    </div>
+                    
+                    
+                    <div class="group">
+                        <button class="w-full bg-white text-black text-2xl font-bold rounded-xl p-2 mt-5">
+                            <div class="px-8 py-4 bg-gray-100 rounded-lg duration-200 group-hover:bg-sky-200">Ver más</div></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
