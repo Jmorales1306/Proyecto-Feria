@@ -1,6 +1,9 @@
 <script lang="ts">
   import '$lib/app.css'
   import src from '$lib/assets/Logo.png'
+  import facebook from "$lib/assets/facebook-circle-logo-48.png" 
+    import twitter from "$lib/assets/twitter-logo-48.png"
+    import instagram from "$lib/assets/instagram-alt-logo-48.png"
 
   //   dropDown nav
   let isDropdownOpen: boolean = false
@@ -197,3 +200,45 @@
 </div>
 
 <slot />
+
+<footer class="bg-[#2C465D] py-12">
+  <div class="container mx-auto px-2 text-white">
+      <div class="flex justify-start">
+          <div class="pr-10 ml-10">
+              <h2 class="text-3xl font-bold mb-8">Soporte</h2>
+              <ul>
+                  <li class="mb-5"><a href="/warranty">Garantía de productos</a></li>
+                  <li class="mb-5"><a href="#">Guías de uso</a></li>
+                  <li class="mb-5"><a href="#">Ubicación</a></li>
+              </ul>
+          </div>
+          <div class="pr-10">
+              <h2 class="text-3xl font-bold mb-4">Sobre nosotros</h2>
+              <ul>
+                  <li class="mb-5"><a href="#">H Ventas Locas</a></li>
+                  <li class="mb-5"><a href="#">Políticas de privacidad</a></li>
+                  <li class="mb-5"><a href="#">Términos y condiciones</a></li>
+              </ul>
+          </div>
+          <div class="pr-10">
+              <h2 class="text-3xl font-bold mb-8">Contáctanos</h2>
+              <ul>
+                  <li class="mb-5"><a href="#">Escribe a nuestro WhatsApp</a></li>
+                  
+              </ul>
+          </div>
+          <div>
+              <h2 class="text-3xl font-bold mb-8">Síguenos</h2>
+              <ul class="flex space-x-2 text-6xl">
+                  <li><img src={facebook} alt=""></li>
+                  <li><img src={twitter} alt=""></li>
+                  <li><img src={instagram} alt=""></li>
+                  
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="grid justify-items-center text-white mt-20">
+      <p>© 2023 H ventas Locas. Todos los derechos reservados.</p>
+  </div>
+</footer>
