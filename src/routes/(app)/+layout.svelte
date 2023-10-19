@@ -122,7 +122,7 @@
         >
         <a
           class=" text-black text-[22px] font-bold font-['Inter']"
-          href="/">Cargadores</a
+          href="/Product">Cargadores</a
         >
         <a
           class=" text-black text-[22px] font-bold font-['Inter']"
@@ -213,7 +213,7 @@
               </ul>
           </div>
           <div class="pr-10">
-              <h2 class="text-3xl font-bold mb-4">Sobre nosotros</h2>
+              <h2 class="text-3xl font-bold mb-8">Sobre nosotros</h2>
               <ul>
                   <li class="mb-5"><a href="#">H Ventas Locas</a></li>
                   <li class="mb-5"><a href="#">Políticas de privacidad</a></li>
@@ -230,7 +230,7 @@
           <div>
               <h2 class="text-3xl font-bold mb-8">Síguenos</h2>
               <ul class="flex space-x-2 text-6xl">
-                  <li><img src={facebook} alt=""></li>
+                  <li><a href="https://www.facebook.com/hventaslocas"><img src={facebook} alt=""></a></li>
                   <li><img src={twitter} alt=""></li>
                   <li><img src={instagram} alt=""></li>
                   

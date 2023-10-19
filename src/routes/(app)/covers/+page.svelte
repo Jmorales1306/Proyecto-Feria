@@ -32,7 +32,7 @@
         <div class="flex flex-col p-6 space-y-10 bg-white rounded-2xl shadow-2xl md:space-y-0 md:space-x1-10 md:m-0 md:p-8">
             <div>
                 <div class="bg-white rounded-lg mb-2">
-                    <img class="object-contain h-96 w-96" src={cover2} alt=""> 
+                    <img class="object-contain h-96 w-96" src={cover2} alt="/Product"> 
                 </div>
             </div>
             <div class="flex flex-col space-y-4">
