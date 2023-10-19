@@ -1,7 +1,7 @@
 <script>
     import logo from '$lib/assets/Logo.png';
 </script>
-<div class="min-h-screen flex flex-col justify-center bg-gradient-to-r from-blue-900 to-blue-950">
+<div class="min-h-screen flex flex-col justify-center bg-gradient-to-r from-[#2C465D] to-[#0052A5]">
 <form class="mt-10 mb-10 sm:mx-auto items-center justify-center rounded-xl block bg-white flex w-96">
 
 <div class="flex min-h-full flex-col justify-center px-6 py-12 lg:px-8">

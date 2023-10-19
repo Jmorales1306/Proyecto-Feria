@@ -25,7 +25,7 @@
       >
     </div>
     <div class="w-40 h-11 text-center">
-      <a href="/sign_up" class=" text-black text-[22px] font-bold font-['Inter']"
+      <a href="/warranty" class=" text-black text-[22px] font-bold font-['Inter']"
         >Cargadores</a
       >
     </div>
@@ -98,3 +98,5 @@
 </div>
 
 <slot />
+
+
